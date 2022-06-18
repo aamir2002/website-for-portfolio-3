@@ -1,0 +1,82 @@
+header nav ul li a{
+  text-decoration: none!important;
+}
+
+/* Sidebar */
+
+.sidebar {
+  margin: 1rem 0;
+}
+
+.sidebar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul a {
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid rgba(137, 137, 137, 0.342);
+  text-decoration: none;
+  transition: .2s all;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.645);
+  font-size: 1.1rem;
+}
+
+.sidebar ul a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.post {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(137, 137, 137, 0.142);
+}
+
+.post .edit a{
+  color: rgb(60, 159, 7);
+}
+
+.post .edit a:hover {
+  color: rgb(62, 37, 155)!important;
+}
+
+.post .del a{
+  color: red;
+}
+
+.post .del a:hover {
+  color: blue!important;
+}
+
+.posts {
+  border-radius: 15px;
+  background: rgba(231, 231, 231, 0.23);
+  height: 100%;
+}
+
+.posts a{
+  text-decoration: none;
+  transition: .3s all;
+}
+
+.button {
+  margin-bottom: 20px;
+}
+
+.title-table {
+  margin-bottom: 15px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid rgba(137, 137, 137, 0.342);
+}
+
+.add-post {
+  padding: 0 100px!important;
+}
+
+.ck {
+  height: 200px;
+  margin-bottom: 50px;
+}
