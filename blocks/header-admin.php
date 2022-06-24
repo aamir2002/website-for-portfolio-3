@@ -10,7 +10,7 @@
         <ul class="navbar-nav mr-auto">
 
           <li class="nav-item">     
-            <a class="nav-link" href=""><span>
+            <a class="nav-link" href="<?php echo BASE_URL ?>"><span>
             <i class="bi bi-person-square" style="font-style: normal;">
             <?php echo $_SESSION['username']; ?></i></span></a>
           </li>

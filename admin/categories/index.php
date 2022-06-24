@@ -1,6 +1,6 @@
 <?php
-   error_reporting(0);
    session_start();
+   error_reporting(0);
    include '../../path.php';
    include '../../app/controllers/categories.php';
 ?>
@@ -56,7 +56,7 @@
                   <div class="id col-1"><?= $key + 1; ?></div>
                   <div class="title col-8"><?= $category['name']; ?></div>
                   <div class="edit col-1 text-center"><a href="edit.php?id=<?=$category['id'];?>">Edit</a></div>
-                  <div class="del col-1 text-center"><a href="#">Delete</a></div>
+                  <div class="del col-1 text-center"><a href="edit.php?del_id=<?=$category['id'];?>">Delete</a></div>
                </div>
                <?php endforeach;?>
             </div>

@@ -1,6 +1,6 @@
 <?php
-error_reporting(0);
 session_start();
+error_reporting(0);
 include '../../path.php';
 include '../../app/controllers/users.php';
 ?>

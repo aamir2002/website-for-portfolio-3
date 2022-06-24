@@ -1,3 +1,5 @@
+<?php include 'path.php';?>
+
 <header class="fixed-top">
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container">

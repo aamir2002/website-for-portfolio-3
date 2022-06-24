@@ -1,6 +1,6 @@
 <?php
-error_reporting(0);
 session_start();
+error_reporting(0);
 include '../../path.php';
 include '../../app/controllers/categories.php';
 ?>
@@ -45,11 +45,13 @@ include '../../app/controllers/categories.php';
                     </div>
 
                     <div class="row">
-                        <h4 class="mb-4 text-center">Создать категорию</h4>
+                        <h4 class="mb-4 text-center">Обновление категории</h4>
                     </div>
 
                     <div class="row add-post">
-                        <form action="create.php" method="POST">
+                        <form action="edit.php" method="POST">
+
+                            <input value="<?=$id;?>" name="id" type="hidden">
 
                             <div class="col mb-4">
                                 <p style="color: red"><?php echo $errMsg?></p>
@@ -66,7 +68,7 @@ include '../../app/controllers/categories.php';
                             </div>
 
                             <div class="col">
-                                <button name="category-create" class="btn btn-primary" type="submit">Создать категорию</button>
+                                <button name="category-edit" class="btn btn-primary" type="submit">Обновить категорию</button>
                             </div>
 
                         </form>

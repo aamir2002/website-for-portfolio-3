@@ -101,6 +101,8 @@ function insert($table, $params){
   return $pdo->lastInsertId();
 }
 
+
+
 // Обновление строки в таблице
 function update($table, $id, $params){
   global $pdo;

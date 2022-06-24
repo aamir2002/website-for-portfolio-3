@@ -1,7 +1,7 @@
 <?php
+session_start();
 error_reporting(0);
 include '../../path.php';
-session_start();
 ?>
 
 <!DOCTYPE html>
